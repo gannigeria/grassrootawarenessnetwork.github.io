@@ -3,6 +3,10 @@
 <head>
   <title>GAN Links</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Icons (Font Awesome CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,11 +15,22 @@
       text-align: center;
       padding: 40px;
     }
+
+    .logo {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
     h1 {
       margin-bottom: 30px;
     }
+
     .link {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
       margin: 15px auto;
       padding: 15px;
       width: 260px;
@@ -24,22 +39,43 @@
       text-decoration: none;
       border-radius: 12px;
       transition: 0.2s;
+      font-size: 16px;
     }
+
+    .link i {
+      font-size: 18px;
+    }
+
     .link:hover {
       background: #334155;
       transform: scale(1.05);
     }
   </style>
 </head>
+
 <body>
+
+  <!-- 🔥 Add your logo here -->
+  <img src="logo.png" class="logo" alt="GAN Logo">
 
   <h1>GAN Links</h1>
 
-  <a class="link" href="https://instagram.com/gan_nigeeria">Follow on Instagram</a>
-  <a class="link" href="https://twitter.com/gan_nigeria">Find us on X</a>
-  <a class="link" href="https://facebook.com> Find us on Facebook</a>
-  <a class="link" href="https://chat.whatsapp.com/GIc9jZNjH7F4HugushwIJa">
-  Join the WhatsApp community, Find your States form here.
+  <a class="link" href="https://instagram.com/gan_nigeeria">
+    <i class="fab fa-instagram"></i> Follow on Instagram
   </a>
+
+  <a class="link" href="https://twitter.com/gan_nigeria">
+    <i class="fab fa-x-twitter"></i> Find us on X
+  </a>
+
+  <!-- ✅ FIXED your broken quote here -->
+  <a class="link" href="https://facebook.com/gannigeria">
+    <i class="fab fa-facebook"></i> Find us on Facebook
+  </a>
+
+  <a class="link" href="https://chat.whatsapp.com/GIc9jZNjH7F4HugushwIJa">
+    <i class="fab fa-whatsapp"></i> Join the WhatsApp Community
+  </a>
+
 </body>
 </html>
